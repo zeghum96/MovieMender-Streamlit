@@ -1,18 +1,65 @@
-MovieMender-Streamlit: Your Personalized Film Discovery Platform
-MovieMender-Streamlit is an interactive web application designed to guide you through the vast sea of cinema to discover films you'll love. Powered by advanced data science techniques and the sleek efficiency of Streamlit, this app personalizes movie recommendations to your unique tastes.
+# MovieMender-Streamlit
 
-Key Features:
+Welcome to **MovieMender-Streamlit**, your go-to web application for personalized movie recommendations. Powered by data science and built with Streamlit, this app aims to enhance your movie selection process by suggesting films tailored to your tastes. Discover your next favorite movie with ease and explore a vast database of films from all genres.
 
-Personalized Recommendations: Utilizing a sophisticated movie similarity algorithm, MovieMender offers tailored suggestions based on your favorite films.
-Interactive Interface: With Streamlit's dynamic capabilities, explore and interact with the recommendations through a user-friendly web interface.
-Discover & Explore: Dive deeper into movie details, genres, and ratings to find your next favorite film effortlessly.
-Up-to-Date Content: Leveraging the TMDB API, the application provides the latest information, including posters, overviews, and more.
-Technology Stack:
+## Features
 
-Data Science: Dive into the algorithmic magic with Python, pandas for data manipulation, sklearn for machine learning, and NLTK for text processing.
-Streamlit: Powering the interactive web interface, making data science accessible through a web app.
-TMDB API: Fetching real-time movie data, ensuring you have access to the latest and greatest in the film world.
-Getting Started:
-To get started with MovieMender-Streamlit, clone the repository, install the required dependencies, and run the Streamlit app. Detailed instructions are available in the README to help you set up.
+- **Tailored Recommendations:** Get personalized movie suggestions based on your preferences.
+- **Interactive Web App:** Enjoy a user-friendly interface to navigate through movie recommendations.
+- **Deep Dive:** Access detailed information about movies, including genres, ratings, and posters.
+- **Up-to-Date:** Utilizes the TMDB API for the latest movie data and visuals.
 
-Embark on a cinematic journey like no other with MovieMender-Streamlit — where your next movie discovery is just a click away!
+## How It Works
+
+MovieMender-Streamlit uses a similarity-based recommendation algorithm to suggest movies. It compares your movie preferences to a dataset of thousands of movies, identifying similar titles based on factors like genre, cast, and plot descriptions.
+
+## Getting Started
+
+To run **MovieMender-Streamlit** locally, follow these steps:
+
+1. Clone the repository:
+    ```
+    git clone https://github.com/zeghum96/MovieMender-Streamlit.git
+    ```
+2. Navigate to the project directory:
+    ```
+    cd MovieMender-Streamlit
+    ```
+3. Install the requirements:
+    ```
+    pip install -r requirements.txt
+    ```
+4. Run the Streamlit app:
+    ```
+    streamlit run app.py
+    ```
+
+Visit `http://localhost:8501` in your web browser to explore the app.
+
+## Technology Stack
+
+- **Python:** The core programming language used.
+- **Streamlit:** For creating the interactive web application.
+- **Pandas:** For data manipulation and analysis.
+- **Scikit-Learn:** For implementing the recommendation algorithm.
+- **NLTK:** For processing movie descriptions and keywords.
+- **TMDB API:** For fetching real-time movie posters and details.
+
+## How to Contribute
+
+We welcome contributions! If you're interested in improving **MovieMender-Streamlit**, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/AmazingFeature`).
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+4. Push to the branch (`git push origin feature/AmazingFeature`).
+5. Open a pull request.
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## Acknowledgments
+
+- This project utilizes the TMDB API but is not endorsed or certified by TMDB.
+- Special thanks to all the contributors and the open-source community.
