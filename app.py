@@ -7,7 +7,7 @@ from PIL import Image
 # Function to fetch the movie poster from TMDB API using the movie ID
 def fetch_poster(movie_id):
     # Constructing the URL with the given movie ID and API key
-    url=f'https://api.themoviedb.org/3/movie/{movie_id}?api_key=d9664b9b9983b0798c6131bc8d9427e0'
+    url=f'https://api.themoviedb.org/3/movie/{movie_id}?api_key=TMDB API'
     # Making the request to the URL
     data=requests.get(url).json()  # Parsing the response to JSON
     poster_path=data['poster_path']  # Extracting the poster path
